@@ -1,0 +1,14 @@
+<h1>Welcome!!!</h1>
+<div class="container">Welcome {{name}} You can  Manage Todos <a routerLink="/todos">Click here</a>
+</div>
+
+<div class="container">
+   
+    <button (click)="getWelcomeMsgParameter()" class="btn btn-success" >Click here for Customized Text</button>
+
+
+</div>
+
+<div class="container" *ngIf="nameSpring">
+{{nameSpring}}
+</div>
